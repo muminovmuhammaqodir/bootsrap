@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="./bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container d-flex my-5 gap-4">
+			<div
+				class="d-flex flex-column gap-3 align-content-center justify-content-center">
+				<img src="./images/3296141.jpg " width="279" class="" alt="" />
+				<img src="./images/983841.jpg " width="279" class="" alt="" />
+				<img src="./images/983829.png " width="279" class="" alt="" />
+			</div>
+			<div
+				id="carouselExampleInterval"
+				class="carousel slide w-100"
+				data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="10000">
+						<img
+							src="./images/983841.jpg"
+							class="d-block w-100"
+							alt="..." />
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img
+							src="./images/983829.png"
+							class="d-block w-100"
+							alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img
+							src="./images/3296141.jpg"
+							class="d-block w-100"
+							alt="..." />
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleInterval"
+					data-bs-slide="prev">
+					<span
+						class="carousel-control-prev-icon"
+						aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleInterval"
+					data-bs-slide="next">
+					<span
+						class="carousel-control-next-icon"
+						aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+		<div class="container">
+			<a class="btn w-25 btn-primary rounded-pill" href="./test.html"
+				>previous page</a
+			>
+		</div>
+		<script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

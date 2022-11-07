@@ -1,0 +1,9 @@
+* {
+     box-sizing: border-box !important;
+}
+.col {
+     height: 200px;
+}
+.col2 {
+     height: 100px;
+}
